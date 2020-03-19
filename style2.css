@@ -48,8 +48,9 @@ a {
   background-image: url(img/naming-bg.jpg);
   background-repeat: no-repeat;
   background-position: center top;
-  height: 650px;
-  max-width: 100%;
+  background-size: contain;
+  background-attachment: fixed;
+  height: 12em;
 }
 
 .intro {
@@ -120,5 +121,3 @@ a {
   font-size: 2em;
   letter-spacing: 0.1em;
 }
-
-
